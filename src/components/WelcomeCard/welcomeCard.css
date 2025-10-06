@@ -1,0 +1,13 @@
+.welcome-card {
+    background: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.welcome-card p {
+    color: #64748b;
+    line-height: 1.6;
+}
