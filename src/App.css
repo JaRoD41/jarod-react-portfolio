@@ -10,3 +10,13 @@
     padding-bottom: 3rem;
     /* Espace pour la navbar */
 }
+
+@media (min-width: 768px) {
+    .app {
+        max-width: 500px;
+        margin: 0 auto;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}
