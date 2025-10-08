@@ -2,16 +2,17 @@ import './Services.css'
 
 const Services = ({ services }) => {
 	return (
-		<section className='services'>
-			<h2>What I do</h2>
-
+		<section className='services-section'>
+			<h2 className='section-title'>What I Do</h2>
 			{services.map((service, index) => (
 				<div key={index} className='service-card'>
 					<div className='service-icon'>
-						<i className='fas fa-mobile-alt'></i>
+						<i className={service.icon}></i>
 					</div>
-					<h3>{service.title}</h3>
-					<p>{service.description}</p>
+					<div className='service-content'>
+						<h3 className='service-title'>{service.title}</h3>
+						<p className='service-description'>{service.description}</p>
+					</div>
 				</div>
 			))}
 		</section>

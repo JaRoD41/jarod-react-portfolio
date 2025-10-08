@@ -10,7 +10,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #2563eb;
+    background-color: var(--color-primary);
     margin-bottom: 1rem;
     overflow: hidden;
 }
@@ -25,10 +25,10 @@
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #1e293b;
+    color: var(--color-secondary);
 }
 
 .title {
     font-size: 1rem;
-    color: #2563eb;
+    color: var(--color-primary);
 }

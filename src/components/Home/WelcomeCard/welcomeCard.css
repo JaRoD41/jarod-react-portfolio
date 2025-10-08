@@ -1,13 +1,13 @@
 .welcome-card {
-    background: white;
-    border-radius: 0.5rem;
+    background: var(--color-card);
+    border-radius: var(--border-radius);
     padding: 1.5rem;
-    margin: 1rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+    box-shadow: var(--box-shadow);
     text-align: center;
 }
 
 .welcome-card p {
-    color: #64748b;
+    color: var(--color-text-light);
     line-height: 1.6;
 }

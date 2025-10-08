@@ -1,25 +1,40 @@
-.services {
-    padding: 1rem;
+.services-section {
+    margin-top: 1rem;
 }
 
-.services h2 {
-    font-size: 1.25rem;
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
     margin-bottom: 1rem;
-    color: #1e293b;
+    text-align: center;
+    color: var(--color-secondary);
 }
 
 .service-card {
-    background: white;
-    border-radius: 0.5rem;
+    background: var(--color-card);
+    border-radius: var(--border-radius);
     padding: 1rem;
     margin-bottom: 1rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow);
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
 .service-icon {
-    color: #2563eb;
     font-size: 1.5rem;
+    color: var(--color-primary);
+}
+
+.service-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--color-secondary);
+}
+
+.service-description {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    line-height: 1.4;
 }

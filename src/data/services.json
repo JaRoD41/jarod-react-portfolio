@@ -1,0 +1,27 @@
+[
+	{
+		"title": "Web Development",
+		"description": "Building responsive and dynamic websites using modern technologies like React, Vue, and Angular.",
+		"icon": "fas fa-code"
+	},
+	{
+		"title": "Mobile Development",
+		"description": "Developing mobile applications using React Native and other cross-platform frameworks.",
+		"icon": "fas fa-mobile-alt"
+	},
+	{
+		"title": "Data Science",
+		"description": "Analyzing and interpreting complex data sets using statistical models and machine learning algorithms.",
+		"icon": "fas fa-database"
+	},
+	{
+		"title": "UI/UX Design",
+		"description": "Creating visually appealing and user-friendly interfaces for web and mobile applications.",
+		"icon": "fas fa-paint-brush"
+	},
+	{
+		"title": "Backend Development",
+		"description": "Building robust and scalable backend systems using Node.js, Express.js, and other server-side technologies.",
+		"icon": "fas fa-server"
+	}
+]
