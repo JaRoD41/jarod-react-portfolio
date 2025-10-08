@@ -1,4 +1,3 @@
-import React from 'react'
 import './navBar.css'
 
 const NavBar = ({ activeTab, onTabChange }) => {

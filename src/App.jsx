@@ -10,11 +10,13 @@ const App = () => {
 	const [activeTab, setActiveTab] = useState('home')
 
 	return (
-		<div className='app'>
-			{activeTab === 'home' && <Home />}
-			{activeTab === 'about' && <About />}
-			{activeTab === 'work' && <Work />}
-			{activeTab === 'contact' && <Contact />}
+		<div className='app-container'>
+			<main className='main-content'>
+				{activeTab === 'home' && <Home />}
+				{activeTab === 'about' && <About />}
+				{activeTab === 'work' && <Work />}
+				{activeTab === 'contact' && <Contact />}
+			</main>
 			<NavBar activeTab={activeTab} onTabChange={setActiveTab} />
 		</div>
 	)
