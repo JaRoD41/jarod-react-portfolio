@@ -1,8 +1,25 @@
-.app {
+:root {
+    --color-primary: #2563eb;
+    --color-secondary: #1e293b;
+    --color-text: #333;
+    --color-text-light: #666;
+    --color-bg: #f8fafc;
+    --color-card: #fff;
+    --color-badge: #e2e8f0;
+    --color-live: #2563eb;
+    --color-dev: #64748b;
+    --border-radius: 8px;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --transition: all 0.2s ease-in-out;
+}
+
+
+.app-container {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #f8fafc;
+    background-color: var(--color-bg);
+    padding-bottom: 3.5rem;
 }
 
 .main-content {
