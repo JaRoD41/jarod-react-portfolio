@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-import Header from './components/Header/Header'
-import WelcomeCard from './components/WelcomeCard/WelcomeCard'
-import Services from './components/Services/Services'
-import NavBar from './components/NavBar/NavBar'
+import Header from './components/Home/Header/Header'
+import WelcomeCard from './components/Home/WelcomeCard/WelcomeCard'
+import Services from './components/Home/Services/Services'
+import NavBar from './components/Shared/NavBar/NavBar'
 
 import './App.css'
 
