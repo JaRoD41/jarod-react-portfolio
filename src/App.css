@@ -27,6 +27,31 @@
     /* Espace pour la navbar */
 }
 
+/* Page Home */
+
+
+/* Page About */
+
+.about {
+    padding: 1rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+}
+
+/* Page Work */
+
+
+/* Page Contact */
+
+
+/* Responsive Design */
+
+
 @media (min-width: 768px) {
     .app {
         max-width: 500px;
