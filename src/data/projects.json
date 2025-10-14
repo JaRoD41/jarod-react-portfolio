@@ -1,0 +1,34 @@
+[
+	{
+		"title": "Portfolio Website",
+		"type": "Website",
+		"status": "Live",
+		"description": "A responsive portfolio website showcasing projects and skills with smooth animations and modern design.",
+		"technologies": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+		"link": "#"
+	},
+	{
+		"title": "E-Commerce Mobile App",
+		"type": "Mobile App",
+		"status": "Live",
+		"description": "A full-featured shopping app with payment integration, user authentication, and real-time notifications.",
+		"technologies": ["React Native", "TypeScript", "Firebase", "Stripe"],
+		"link": "#"
+	},
+	{
+		"title": "Social Media Dashboard",
+		"type": "Web App",
+		"status": "In Development",
+		"description": "An analytics dashboard for social media management with data visualization and scheduling features.",
+		"technologies": ["React", "D3.js", "Express", "PostgreSQL"],
+		"link": "#"
+	},
+	{
+		"title": "Task Management Platform",
+		"type": "Web App",
+		"status": "Live",
+		"description": "A collaborative task management platform with real-time updates and team features.",
+		"technologies": ["React", "Firebase", "Tailwind CSS"],
+		"link": "#"
+	}
+]
