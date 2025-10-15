@@ -1,0 +1,18 @@
+.location-icon i {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.location-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.location-section p {
+    color: var(--color-text-light);
+    text-align: center;
+}

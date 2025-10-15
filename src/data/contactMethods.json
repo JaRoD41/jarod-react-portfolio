@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"type": "Email",
+		"icon": "fas fa-envelope",
+		"value": "john.doe@example.com",
+		"link": "mailto:john.doe@example.com"
+	},
+	{
+		"id": 2,
+		"type": "Phone",
+		"icon": "fas fa-phone",
+		"value": "+1 (555) 123-4567",
+		"link": "tel:+15551234567"
+	},
+	{
+		"id": 3,
+		"type": "LinkedIn",
+		"icon": "fab fa-linkedin",
+		"value": "linkedin.com/in/johndoe",
+		"link": "https://linkedin.com/in/johndoe"
+	}
+]
